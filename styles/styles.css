@@ -249,3 +249,48 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+main .section.newsection {
+  background-color: gray;
+}
+
+main {
+  padding-top: 100px;
+}
+
+h1#about-us {
+  font-size: 40px;
+  font-family: "Asar",Georgia,"Times New Roman",Times,serif;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin-top: 27px;
+  color: #202020;
+  line-height: 1.5;
+}
+
+h2#recent-articles,
+h2#our-contributors,
+h2#wknd-guides {
+  font-size: 36px;
+  font-family: "Asar",Georgia,"Times New Roman",Times,serif;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  color: #202020;
+  line-height: 1.5;
+}
+
+h2#our-contributors,
+h2#wknd-guides {
+  margin-bottom: 15px;
+}
+
+h2#recent-articles:after,
+h2#our-contributors:after,
+h2#wknd-guides:after {
+  border-bottom: 2px solid #ffea00;
+  content: "";
+  display: block;
+  padding-top: 8px;
+  width: 84px;
+}

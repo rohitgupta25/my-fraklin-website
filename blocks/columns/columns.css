@@ -31,3 +31,141 @@
     order: unset;
   }
 }
+
+
+.section.recent-article {
+  padding: 0 32px 32px;
+}
+
+.recent-article .block > div {
+  align-items: unset;
+  gap: 20px;
+}
+
+.recent-article p {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.recent-article  picture img {
+  height: 200px;
+  margin: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.recent-article a,
+.recent-article .button.primary {
+  color: #202020;
+  text-decoration: none;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:18px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  line-height: 1;
+}
+
+.recent-article  .button-container + p {
+  color: dimgray;
+  display: block;
+  font-size: 14px;
+  margin-top: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 260px;
+}
+
+.section.our-contributers {
+  margin-bottom: 50px;
+}
+
+.section.our-contributers .default-content-wrapper p em{
+  font-size:14px;
+  line-height: 2.5;
+  margin: 0 0 13.5px;
+  text-align: justify;
+}
+
+.section.our-contributers .columns > div {
+  align-items: unset;
+  text-align: center;
+}
+
+.section.our-contributers .columns p > picture > img {
+  border-radius: 50%;
+  height: 164px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 164px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.section.our-contributers .columns h3 {
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  font-size: 24px;
+  font-family: "Asar",Georgia,"Times New Roman",Times,serif;
+  font-weight: normal;
+  color: #202020;
+  line-height: 1.5;
+}
+
+.section.our-contributers .columns h5 {
+  margin-bottom: 0.25em;
+  margin-top: 0;
+  font-size: 14px;
+  font-family: "Asar",Georgia,"Times New Roman",Times,serif;
+  font-weight: normal;
+  color: #202020;
+  line-height: 1.5;
+}
+
+.section.our-contributers .columns ul {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+ }
+
+ .section.our-contributers .columns ul li {
+  clear: none;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  width: unset!important;
+  display: flex;
+  }
+
+  .section.our-contributers .columns ul li a {
+    height: 3pc;
+    width: 3pc;
+    background-color: #202020;
+    color: #ebebeb;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 3pc;
+    text-transform: uppercase;
+  }
+
+  .section.form-container .form-wrapper:before {
+    font-size: 36px;
+    font-family: "Asar",Georgia,"Times New Roman",Times,serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 27px;
+    color: #202020;
+    line-height: 1.5;
+  }
